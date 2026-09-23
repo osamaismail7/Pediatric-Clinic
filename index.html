@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pediatric Clinic</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 13px;
+            border: none;
+            border-radius: 8px;
+            background: #2196f3;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1976d2;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>👶 Pediatric Clinic</h1>
+
+    <label>Child Name</label>
+    <input type="text" placeholder="Enter child's name">
+
+    <label>Age</label>
+    <input type="text" placeholder="Enter age">
+
+    <label>Parent Phone</label>
+    <input type="tel" placeholder="Enter parent's phone">
+
+    <label>Diagnosis</label>
+    <input type="text" placeholder="Enter diagnosis">
+
+    <label>Treatment</label>
+    <textarea placeholder="Enter treatment and medications"></textarea>
+
+    <label>Notes</label>
+    <textarea placeholder="Additional notes"></textarea>
+
+    <button>Save Patient</button>
+
+</div>
+
+</body>
+  </html>
